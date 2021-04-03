@@ -105,7 +105,8 @@ It's time to change directories to your `learning_python` repository and write
 some programs that you can check into your own repository.
 
 Copy `codons.py`, `gc.py`, and `sumfac.py` to your `learning python` repo and
-follow the directions in each file.
+follow the directions in each file. You will find these in the `Programs`
+directory.
 
 ## Python Manifest ##
 
