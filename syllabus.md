@@ -5,7 +5,7 @@ Syllabus for MCB185
 
 + `README.md` - an overview of the repository
 + `SYLLABUS.md` - this document
-+ `GUMPY.md` - intro to GitHub, Unix, Markdown, and Python
++ `gumpy.md` - intro to GitHub, Unix, Markdown, and Python
 + `Tutorials` - tutorials written in python source code
 + `Programs` - programs for the students
 + `Solutions` - solved program problems
