@@ -5,23 +5,6 @@
 
 dna = 'ACTGAAAAAAAAAAA'
 
-# cut -------------------------------------------------------------------------
-
-anti = ''
-for i in range(len(dna)):
-	nt = dna[i]
-	if   nt == 'A': nt = 'T'
-	elif nt == 'C': nt = 'G'
-	elif nt == 'G': nt = 'C'
-	elif nt == 'T': nt = 'A'
-	else:
-		print('error')
-	anti = nt + anti
-print(anti)
-
-
-# cut -------------------------------------------------------------------------
-
 """
 python3 anti.py
 TTTTTTTTTTTCAGT

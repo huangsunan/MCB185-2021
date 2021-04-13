@@ -5,18 +5,6 @@
 # Skip AA, CC etc.
 # Also print out how many combinations there are
 
-# cut -------------------------------------------------------------------------
-
-count = 0
-aa = 'ACDEFGHIKLMNPQRSTVWY'
-for i in range(20):
-	for j in range(i+1, 20):
-		print(aa[i], aa[j])
-		count += 1
-
-print(count)
-
-# cut -------------------------------------------------------------------------
 
 """
 python3 aa_pairs.py

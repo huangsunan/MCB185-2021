@@ -11,24 +11,6 @@
 seq = 'ACGACGCAGGAGGAGAGTTTCAGAGATCACGAATACATCCATATTACCCAGAGAGAG'
 w = 11
 
-# cut -------------------------------------------------------------------------
-
-cg = 0
-
-# initial window
-for i in range(w):
-	if seq[i] == 'C' or seq[i] == 'G': cg += 1
-print('%d %s %.4f' % (0, seq[0:w], cg/w))
-
-for i in range(1, len(seq) -w +1):
-	left = seq[i-1:i]
-	right = seq[i+w-1:i+w]
-	if left == 'C' or left == 'G': cg -= 1
-	if right == 'C' or right == 'G': cg += 1
-	print('%d %s %.4f' % (i, seq[i:i+w], cg/w))
-
-# cut -------------------------------------------------------------------------
-
 """
 python3 gc_win2.py
 0 ACGACGCAGGA 0.6364

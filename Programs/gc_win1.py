@@ -8,19 +8,6 @@
 seq = 'ACGACGCAGGAGGAGAGTTTCAGAGATCACGAATACATCCATATTACCCAGAGAGAG'
 w = 11
 
-# cut -------------------------------------------------------------------------
-
-for i in range(0, len(seq) - w + 1):
-	sseq = seq[i:i+w]
-	count = 0
-	for j in range(w):
-		nt = sseq[j]
-		if nt == 'C' or nt == 'G':
-			count += 1
-	gc = count / w
-	print('%d %s %.4f' % (i, sseq, gc))
-
-# cut -------------------------------------------------------------------------
 
 """
 python3 gc_win.py
