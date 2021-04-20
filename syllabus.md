@@ -231,3 +231,69 @@ Copy these to your `learning_python` directory and `git push` them from there.
 	gc.py
 	gc_win1.py
 	gc_win2.py
+
+Lesson 4: Tuples and Lists
+==========================
+
+## Learning Objectives ##
+
+* tuples - immutable, comma separated values (in parentheses)
+* lists - mutable, comma separarted values [in brackets]
+* list functions - append(), pop(), insert(), sort()
+
+## Tutorials ##
+
+In `07_lists.py`, you will learn how to create tuples and lists. The Python
+*list* is what other languages call an *array*. A lot of the work in programming
+is done by iterating over lists. You will also be introduced to the `zip()` and
+`enumerate()` functions. Finally, you will see a bit of optional syntactic sugar
+called *list comprehension*.
+
+## Coding Exercises ##
+
+For programming practice, try writing the following programs. The instructions
+are inside each file.
+
+Copy these to your `learning_python` directory and also the data files.
+
+1. `birthday.py`
+2. `stats.py`
+3. `entropy.py`
+4. `xcoverage.py`
+
+## Python Manifest ##
+
+### Operators
+
+	,
+	[]
+
+### Functions
+
+	enumerate()
+	len(list)
+	list()
+	zip()
+
+### Methods
+
+	list.append()
+	list.insert()
+	string.join()
+	list.pop()
+	list.sort()
+	list.split()
+
+### Libraries
+
+	sys
+
+## File Manifest ##
+
+	00README.md
+	07_lists.py
+	birthday.py
+	entropy.py
+	stats.py
+	xcoverage.py
+
