@@ -297,3 +297,49 @@ Copy these to your `learning_python` directory and also the data files.
 	stats.py
 	xcoverage.py
 
+
+Lesson 5: Functions
+===================
+
+## Learning Objectives ##
+
+* Define functions
+* Use assertions
+* Open and read from named files
+* Search for items inside lists
+
+## Tutorials ##
+
+The only tutorial this lesson is `08_functions.py`, where you will learn how to
+write blocks of code that perform specific duties whenever you call them.
+Functions are the building blocks of complex programs. Here, you will also
+observe that floating point math is an approximation of real math. As a result,
+we have to use functions like `math.isclose()` to check for equality. This
+tutorial also introduces `assert()`, which you can use to ensure your functions
+receive proper values.
+
+## Coding Exercises ##
+
+For programming practice, try writing `randomfun.py` in the Programs directory.
+
+
+## Python Manifest ##
+
+### Keywords
+
+	def
+	return
+	with
+	yield
+
+### Functions
+
+### Methods
+
+### Libraries
+
+## File Manifest ##
+
+	08_functions.py
+	randomfun.py
+
