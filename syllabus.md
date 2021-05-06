@@ -310,17 +310,20 @@ Lesson 5: Functions
 
 ## Tutorials ##
 
-The only tutorial this lesson is `08_functions.py`, where you will learn how to
-write blocks of code that perform specific duties whenever you call them.
-Functions are the building blocks of complex programs. Here, you will also
-observe that floating point math is an approximation of real math. As a result,
-we have to use functions like `math.isclose()` to check for equality. This
-tutorial also introduces `assert()`, which you can use to ensure your functions
-receive proper values.
+First, try out `08_functions.py`, where you will learn how to write blocks of
+code that perform specific duties whenever you call them. Functions are the
+building blocks of complex programs. Here, you will also observe that floating
+point math is an approximation of real math. As a result, we have to use
+functions like `math.isclose()` to check for equality. This tutorial also
+introduces `assert()`, which you can use to ensure your functions receive proper
+values.
+
+Next, go on to `09_files.py`, where you will learn to read files.
 
 ## Coding Exercises ##
 
-For programming practice, try writing `randomfun.py` in the Programs directory.
+For programming practice, try writing `transmembrane.py` in the Programs
+directory.
 
 
 ## Python Manifest ##
@@ -334,12 +337,21 @@ For programming practice, try writing `randomfun.py` in the Programs directory.
 
 ### Functions
 
+	open()
+
 ### Methods
+
+	close()
+	readline()
+	readlines()
+	write()
 
 ### Libraries
 
 ## File Manifest ##
 
 	08_functions.py
-	randomfun.py
+	09_files.py
+	transmembrane.py
+
 
