@@ -355,3 +355,57 @@ directory.
 	transmembrane.py
 
 
+Lesson 6: Modules and CLI
+=========================
+
+## Learning Objectives ##
+
++ Make your own function library
++ Use argparse to provide a typical Unix command line interface
+
+## Tutorials ##
+
+The tutorials this lesson are a little different from before. Both
+`10_module.py` and `11_argparse.py` are really short. They are more like
+templates for future code than actual tutorials.
+
+Modules (the python word for libraries) are the currency of professional
+programmers. Developers write and share libraries. In addition to using other
+peoples' libraries, you should also write your own even if you don't share your
+code with lots of people. Functions make your code more organized.
+
+The command line interface (CLI) has standards. If you want your program to look
+and feel like a typical Unix program (and you do) then use `argparse` to capture
+your command line parameters and provide a help interface. We will no longer be
+using `sys.argv` to get data into programs because `argparse` is much better.
+
+## Coding Exercises ##
+
+You will find the following program directions in the Programs folder.
+
+`orfogram.py`
+`seqstats.py`
+`dust.py`
+
+## Python Manifest ##
+
+### Keywords
+
+### Operators
+
+### Functions
+
+### Methods
+
+### Libraries
+
+	argparse
+
+## File Manifest ##
+
+	10_module.py
+	11_argparse.py
+	dust.py
+	orfogram.py
+	seqstats.py
+
