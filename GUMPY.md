@@ -37,6 +37,18 @@ flavor of Unix is called Darwin. You can get to the CLI with the _Terminal_
 application. You may also find it useful to install Linux virtual machines on
 your Mac. See below for more information.
 
+## Linux on Chrome ##
+
+If your computer is a Chromebook running ChromOS, you have a built-in Linux
+vitual machine. You just ahve to turn it on. Go to Settings -> Advanced ->
+Developers -> Linux virtual enviornments. Once installed, you will have a
+_Terminal_ application that you will use to get to the Linux CLI. The Linux
+installed is very stripped down and not much is installed. You will need
+`nano` for this tutorial. TO install that, type the following command in
+the terminal.
+
+	sudo apt install nano
+
 ## Linux on PC ##
 
 If your computer is a PC currently running Windows, you will have to install
