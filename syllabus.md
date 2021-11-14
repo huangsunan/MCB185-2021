@@ -1,5 +1,4 @@
 Syllabus for MCB185
-===================
 
 ## Files & Directories ##
 
